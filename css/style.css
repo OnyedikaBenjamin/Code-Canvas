@@ -1,0 +1,183 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    text-align: center;                   /*Making the Text-Allign center positions all the text elements to the center*/
+    font-family: 'Merriweather', serif;  /*fonts.google.com*/
+}
+div{
+background-color: white;
+}
+a{
+    color:#00c2c2;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(221, 4, 138);
+}
+hr{
+    border: dotted #c5e4e4 6px;
+    border-bottom: none;
+    width: 5%;
+}
+h1{
+    margin-top: 80px;
+    font-size: 80px;                    /* Changing the header width can spoil the allignment of the element position */
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    color: #0eec72;
+    /* line-height: 2; */
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+     font-size: 2.5rem; /*The rem allows one to overide the parent font size*/
+     color:#00c2c2;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p{
+    line-height: 2;  /* The purpose of this text is to create a space for all the paragraph text*/
+}
+.topContainer{
+    background-color: black;
+    padding: 0px;
+    font-weight: normal;
+    height: 670px;
+}
+.middle-container{
+    margin: 100px auto 50px auto;
+}
+.middle-container2{
+    margin: 125px auto 50px auto;
+}
+.bottom-container{
+    margin-top: 100px;
+    background-color: #66BFBF;
+    padding-top: 70px;
+}
+.logo{
+    display: flex;
+    border-radius: 100%; 
+    width: 120px;
+    padding-left: 4px;
+    padding-top: 7px;
+    filter: blur(0.40px);
+    float: left;
+}
+.hamburger{
+    background-color:  black;
+   display: flex;
+   justify-content: end;
+    color: #34f8f8;
+    height: 10px;
+}
+.hamburger-elements{
+    position: relative;
+    top: 0px;
+    left: 12px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.welcome{
+    position: relative;
+    top: 10%;
+    background-color: black;
+    color: #20553a;
+
+}
+.work-space{
+    border-radius: 80%;
+    width: 350px;
+}
+img.work-space{
+    filter: blur(0.60px);
+}
+.span{
+    text-decoration: underline;
+}
+.skill-row{
+    width: 60%;                       /* Touching the width can mis-allign the elements position*/
+    margin: 1px auto 1px auto;   /* But setting the margin back to auto makes it centered on all four sides*/
+    text-align: left;
+    line-height: 2;
+    padding-top: 10px;
+}
+.java-icon{
+    width: 25%;
+    float: left;
+    padding: 0 20px 20px 0;
+    margin-right: 30px;
+    border-radius: 100%;
+    }
+.command-line-icon{
+    width: 25%;
+    float: right;  /*Float should be only used for wrapping text around an image and not for poitioning.*/
+    padding: 0 20px 20px 0;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+.dp{
+    width: 15%;
+    border-radius: 100%;
+}
+.my-skill{
+    width: 50%;
+    margin: 125px auto 20px auto;
+}
+
+.intro{
+    width: 50%;
+    margin: 50px auto 40px auto;
+}
+.contact-message{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 60px;
+}
+.myMail {
+    background: #85d0e7;
+    background-image: -webkit-linear-gradient(top, #85d0e7, #2980b9);
+    background-image: -moz-linear-gradient(top, #85d0e7, #2980b9);
+    background-image: -ms-linear-gradient(top, #85d0e7, #2980b9);
+    background-image: -o-linear-gradient(top, #85d0e7, #2980b9);
+    background-image: linear-gradient(to bottom, #85d0e7, #2980b9);
+    -webkit-border-radius: 100;
+    -moz-border-radius: 100;
+    border-radius: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .myMail:hover {
+    background: #85d0e7;
+    background-image: -webkit-linear-gradient(top, #85d0e7, #2ef7f7);
+    background-image: -moz-linear-gradient(top, #85d0e7, #2ef7f7);
+    background-image: -ms-linear-gradient(top, #85d0e7, #2ef7f7);
+    background-image: -o-linear-gradient(top, #85d0e7, #2ef7f7);
+    background-image: linear-gradient(to bottom, #85d0e7, #2ef7f7);
+    text-decoration: none;
+  }
+  .copyright{
+    color:#d4f7f7;
+    font-size: 12px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+.ul{
+    list-style-type: upper-roman;
+}
+.ol{
+    list-style-image: url(../images/right.png);
+}
+.footer-link{
+    width: 30px;
+    padding-right: 50px;
+}
